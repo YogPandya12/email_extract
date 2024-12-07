@@ -97,8 +97,7 @@ button:active {
     transform: scale(1); 
 }
 
-
-/* status messages */
+/* Status messages */
 #status {
     margin-top: 30px;
     font-size: 20px;
@@ -117,4 +116,25 @@ button:active {
 
 #status.show {
     opacity: 1; 
+}
+
+/* New informational message for file upload instructions */
+#file-instructions {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+    background-color: #fff3cd;
+    padding: 10px;
+    border: 1px solid #ffeeba;
+    border-radius: 8px;
+    text-align: left;
+    font-weight: 500;
+}
+
+#file-instructions p {
+    margin: 0;
+}
+
+#file-instructions strong {
+    color: #856404;
 }
